@@ -61,7 +61,7 @@ h2 {
 /* Hero-image */
 .hero-image {
     background-image: url(images/header.jpg);
-    background-size: center;
+    background-size: auto;
     background-repeat: no-repeat;  
     width: 100%;
     height: 100vh;
@@ -179,6 +179,10 @@ footer {
 
 /* Media Query */
 @media screen and (max-width: 1024px) {
+    .hero-image {
+        height: 75vh;
+    }
+
     .products img {
         padding: 0;
     }
